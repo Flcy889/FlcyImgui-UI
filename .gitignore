@@ -1,0 +1,19 @@
+# 构建产物
+obj/
+libs/
+*.o
+*.so
+*.a
+!jni/Dobby/*/libdobby.a
+
+# 编辑器 / 系统
+.DS_Store
+.idea/
+.vscode/
+cscope.*
+*.swp
+
+# 本地偏好与日志（运行时生成）
+imgui_ui.txt
+imgui_ui_log.txt
+imgui_ui_calib.txt
